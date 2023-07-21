@@ -301,6 +301,59 @@
     font-weight: 700;
     line-height: 25px;
     letter-spacing: 0.3px;
-    padding:8px 30px;
+    padding: 8px 30px;
     justify-content: center;
+}
+
+.latest-trends-section .latest-trends-section-container .slider {
+    display: flex;
+    padding: 70px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.latest-trends-section .latest-trends-section-container .slider .slider-image {
+    display: flex;
+    width: 1140px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.latest-trends-section .latest-trends-section-container .inspirations {
+    display: flex;
+    max-width: 1440px;
+    align-items: flex-start;
+    gap: 226px;
+    margin-top: 40px;
+}
+
+.latest-trends-section .latest-trends-section-container .inspirations .title-paragraph {
+    display: flex;
+    width: 1140px;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+
+}
+
+.latest-trends-section .latest-trends-section-container .inspirations .title-paragraph h3 {
+    color: #534B42;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: -0.3px;
+}
+
+.latest-trends-section .latest-trends-section-container .inspirations .title-paragraph p {
+    color: #706458;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
 }
