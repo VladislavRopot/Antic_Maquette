@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.antic-maquette-section {
+    height: 900px;
+    display: flex;
+    background-color: #F3EEE8;
+    justify-content: center;
+}
+
+.antic-maquette-section .antic-maquette-section-container {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.antic-maquette-section .antic-maquette-section-container .antic-left-side {
+    width: 50%;
+    display: flex;
+    padding: 24px 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.antic-maquette-section .antic-maquette-section-container .antic-left-side h5 {
+    color: #A06056;
+    font-family: Varta;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.antic-maquette-section .antic-maquette-section-container .antic-left-side h1 {
+    color: #A06056;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: -0.4px;
+}
+
+.antic-maquette-section .antic-maquette-section-container .antic-left-side p {
+    color: rgba(112, 100, 88, 0.90);
+    font-family: Varta;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30.8px;
+}
+
+.antic-maquette-section .antic-maquette-section-container .antic-right-side {
+    width: 50%;
+}
+
+.antic-maquette-section .antic-maquette-section-container .antic-right-side img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.antic-maquette-section .antic-maquette-section-container .navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: absolute;
+    left: 150px;
+    right: 150px;
+    top: 55px;
+}
+
+.antic-maquette-section .antic-maquette-section-container .navigation-bar .menu {
+    display: flex;
+    gap: 82px;
+    align-items: center;
+}
+
+.antic-maquette-section .antic-maquette-section-container .navigation-bar .menu h1 {
+    color: #A06056;
+    font-family: Merriweather;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.antic-maquette-section .antic-maquette-section-container .navigation-bar .menu ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.antic-maquette-section .antic-maquette-section-container .navigation-bar .menu a {
+    color: #706458;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+
