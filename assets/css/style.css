@@ -111,3 +111,100 @@
     text-decoration: none;
 }
 
+.slide-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #F3EEE8;
+}
+
+.slide-section .slide-section-container {
+    display: flex;
+    max-width: 1440px;
+    padding: 64px 150px 70px 150px;
+    gap: 48px;
+}
+
+.slide-section .slide-section-container .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+    width: 50%;
+}
+
+.slide-section .slide-section-container h1 {
+    color: #706458;
+    font-family: Merriweather;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: -0.6px;
+    padding-right: 88px;
+}
+
+.slide-section .slide-section-container a {
+    color: #A06056;
+    font-family: Karla;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-section .slide-section-container img {
+    height: 20px;
+    width: 20px;
+}
+
+.slide-section .slide-section-container .right-side {
+    width: 50%;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+}
+
+.slide-section .slide-section-container .right-side .card-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 29px;
+    align-self: stretch;
+}
+
+.slide-section .slide-section-container .right-side .card-container .card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+}
+
+.slide-section .slide-section-container .right-side .card-container .card h3 {
+    color: #A06056;
+    font-family: Varta;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+}
+
+.slide-section .slide-section-container .right-side .card-container .card p {
+    color: rgba(112, 100, 88, 0.90);
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
