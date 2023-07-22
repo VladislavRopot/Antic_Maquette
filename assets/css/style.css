@@ -357,3 +357,179 @@
     font-weight: 400;
     line-height: 25px;
 }
+
+.footer-section {
+    background: #F3EEE8;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section .footer-section-container {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    padding: 70px 150px 64px 150px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.footer-section .footer-section-container .footer-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch;
+}
+
+.footer-section .footer-section-container .footer-content .logotype {
+    color: #534B42;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-right: 64px;
+}
+
+.footer-section .footer-section-container .footer-content .link-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    flex: 1 0 0;
+    margin-right: 64px;
+}
+
+.footer-section .footer-section-container .footer-content .link-group .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.footer-section .footer-section-container .footer-content .link-group .links h3 {
+    color: #534B42;
+    font-family: Varta;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+}
+
+.footer-section .footer-section-container .footer-content .link-group .links a {
+    color: #706458;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.footer-section .footer-section-container .footer-content .blog {
+    display: flex;
+    width: 235px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+
+.footer-section .footer-section-container .footer-content .blog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.footer-section .footer-section-container .footer-content .blog .blog-post h3 {
+    color: #534B42;
+    font-family: Varta;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+}
+
+.footer-section .footer-section-container .footer-content .blog .blog-post a img {
+    height: 20px;
+    width: 20px;
+}
+
+.footer-section .footer-section-container .footer-content .blog .blog-post p {
+    color: #706458;
+    font-family: Varta;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.footer-section .footer-section-container .footer-content .blog .blog-post a {
+    color: #A06056;
+    font-family: Karla;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+}
+
+.footer-section .footer-section-container .footer-content .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.footer-section .footer-section-container .copyright .social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    padding: 32px 1140px;
+}
+
+.footer-section .footer-section-container .copyright .social-networks img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-section .footer-section-container .copyright .legals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.footer-section .footer-section-container .copyright .legals .for-people p {
+    color: rgba(112, 100, 88, 0.70);
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 894px;
+}
+
+.footer-section .footer-section-container .copyright .legals .links ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex: 1 0 0;
+}
+
+.footer-section .footer-section-container .copyright .legals .links a {
+    color: rgba(112, 100, 88, 0.70);
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
