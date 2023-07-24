@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     width: 100%;
 
 }
@@ -244,6 +245,12 @@ html, body {
     gap: 10px;
 }
 
+.latest-trends-section .latest-trends-section-container .trends .trends-left a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .latest-trends-section .latest-trends-section-container .trends .trends-left h2 {
     color: #121212;
     font-family: Merriweather;
@@ -279,7 +286,6 @@ html, body {
     height: 20px;
 }
 
-
 .latest-trends-section .latest-trends-section-container .trends .trends-right {
     width: 50%;
     display: flex;
@@ -288,7 +294,7 @@ html, body {
 }
 
 .latest-trends-section .latest-trends-section-container .trends .trends-right .placeholder {
-    color:rgba(112, 100, 88, 0.90);
+    color: rgba(112, 100, 88, 0.90);
     width: 296.095px;
     padding: 15px 15.095px 10px 15px;
     border: 0;
@@ -469,6 +475,9 @@ html, body {
     line-height: 25px;
     letter-spacing: 0.3px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-section .footer-section-container .copyright {
@@ -512,7 +521,6 @@ html, body {
     display: flex;
     list-style: none;
     gap: 30px;
-    flex: 1 0 0;
 }
 
 .footer-section .footer-section-container .copyright .legals a {
