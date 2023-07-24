@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+
+}
+
 .antic-maquette-section {
     height: 900px;
     display: flex;
@@ -212,12 +217,11 @@
 .latest-trends-section {
     display: flex;
     justify-content: center;
-    background-color: #FFF;
 }
 
 .latest-trends-section .latest-trends-section-container {
     display: flex;
-    padding: 70px 0px;
+    padding: 70px 150px;
     flex-direction: column;
     align-items: center;
     gap: 64px;
@@ -237,7 +241,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 10px;
 }
 
 .latest-trends-section .latest-trends-section-container .trends .trends-left h2 {
@@ -284,11 +288,11 @@
 }
 
 .latest-trends-section .latest-trends-section-container .trends .trends-right .placeholder {
-    display: flex;
+    color:rgba(112, 100, 88, 0.90);
     width: 296.095px;
     padding: 15px 15.095px 10px 15px;
-    justify-content: center;
-    align-items: center;
+    border: 0;
+    outline: 0;
 }
 
 .latest-trends-section .latest-trends-section-container .trends .trends-right .action-button {
@@ -302,44 +306,33 @@
     line-height: 25px;
     letter-spacing: 0.3px;
     padding: 8px 30px;
-    justify-content: center;
+    border: 0;
+    outline: none;
 }
 
 .latest-trends-section .latest-trends-section-container .slider {
     display: flex;
-    padding: 70px 0px;
     flex-direction: column;
     align-items: center;
-    gap: 64px;
+    gap: 40px;
 }
 
 .latest-trends-section .latest-trends-section-container .slider .slider-image {
     display: flex;
-    width: 1140px;
-    justify-content: center;
-    align-items: flex-start;
     gap: 30px;
+    justify-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .latest-trends-section .latest-trends-section-container .inspirations {
     display: flex;
-    max-width: 1440px;
-    align-items: flex-start;
-    gap: 226px;
-    margin-top: 40px;
-}
-
-.latest-trends-section .latest-trends-section-container .inspirations .title-paragraph {
     display: flex;
-    width: 1140px;
-    align-items: flex-start;
     gap: 30px;
-    flex-shrink: 0;
-
 }
 
-.latest-trends-section .latest-trends-section-container .inspirations .title-paragraph h3 {
+
+.latest-trends-section .latest-trends-section-container .inspirations h3 {
     color: #534B42;
     font-family: Merriweather;
     font-size: 45px;
@@ -349,7 +342,7 @@
     letter-spacing: -0.3px;
 }
 
-.latest-trends-section .latest-trends-section-container .inspirations .title-paragraph p {
+.latest-trends-section .latest-trends-section-container .inspirations p {
     color: #706458;
     font-family: Varta;
     font-size: 18px;
@@ -379,24 +372,24 @@
     align-items: flex-start;
     gap: 64px;
     align-self: stretch;
+    flex-wrap: wrap;
 }
 
-.footer-section .footer-section-container .footer-content .logotype {
+.footer-section .footer-section-container .footer-content {
     color: #534B42;
     font-family: Merriweather;
     font-style: normal;
     font-weight: 700;
     line-height: 25px;
     letter-spacing: 2px;
-    margin-right: 64px;
 }
 
 .footer-section .footer-section-container .footer-content .link-group {
     display: flex;
     align-items: flex-start;
-    gap: 48px;
     flex: 1 0 0;
-    margin-right: 64px;
+    justify-content: space-between;
+    gap: 48px;
 }
 
 .footer-section .footer-section-container .footer-content .link-group .links {
@@ -443,7 +436,7 @@
     gap: 15px;
 }
 
-.footer-section .footer-section-container .footer-content .blog .blog-post h3 {
+.footer-section .footer-section-container .footer-content .blog h3 {
     color: #534B42;
     font-family: Varta;
     font-size: 25px;
@@ -453,12 +446,12 @@
     letter-spacing: -0.2px;
 }
 
-.footer-section .footer-section-container .footer-content .blog .blog-post a img {
+.footer-section .footer-section-container .footer-content .blog a img {
     height: 20px;
     width: 20px;
 }
 
-.footer-section .footer-section-container .footer-content .blog .blog-post p {
+.footer-section .footer-section-container .footer-content .blog p {
     color: #706458;
     font-family: Varta;
     font-size: 16px;
@@ -467,7 +460,7 @@
     line-height: 25px;
 }
 
-.footer-section .footer-section-container .footer-content .blog .blog-post a {
+.footer-section .footer-section-container .footer-content .blog a {
     color: #A06056;
     font-family: Karla;
     font-size: 17px;
@@ -478,21 +471,21 @@
     text-decoration: none;
 }
 
-.footer-section .footer-section-container .footer-content .copyright {
+.footer-section .footer-section-container .copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     align-self: stretch;
+    width: 100%;
 }
 
-.footer-section .footer-section-container .copyright .social-networks {
+.footer-section .footer-section-container .social-networks {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
     align-self: stretch;
-    padding: 32px 1140px;
 }
 
 .footer-section .footer-section-container .copyright .social-networks img {
@@ -502,29 +495,27 @@
 
 .footer-section .footer-section-container .copyright .legals {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     align-self: stretch;
 }
 
-.footer-section .footer-section-container .copyright .legals .for-people p {
+.footer-section .footer-section-container .copyright .legals p {
     color: rgba(112, 100, 88, 0.70);
     font-family: Varta;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
-    width: 894px;
 }
 
-.footer-section .footer-section-container .copyright .legals .links ul {
+.footer-section .footer-section-container .copyright .legals ul {
     display: flex;
     list-style: none;
     gap: 30px;
     flex: 1 0 0;
 }
 
-.footer-section .footer-section-container .copyright .legals .links a {
+.footer-section .footer-section-container .copyright .legals a {
     color: rgba(112, 100, 88, 0.70);
     font-family: Varta;
     font-size: 18px;
