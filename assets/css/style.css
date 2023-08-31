@@ -693,7 +693,6 @@ body {
 
     .latest-trends-section .latest-trends-section-container .slider {
         flex-direction: column;
-        align-items: center;
         gap: 40px;
     }
 
@@ -702,15 +701,36 @@ body {
         width: 311px;
         flex-direction: column;
         gap: 20px;
-        align-items: center;
+
     }
 
     .latest-trends-section .latest-trends-section-container .slider .slider-image {
         order: 2;
-        align-items: center;
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
+
+
+    .footer-section .footer-section-container {
+        display: flex;
+        padding: 48px 32px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .footer-section .footer-section-container .footer-content .link-group {
+        flex-direction: column;
+    }
+
+    .footer-section .footer-section-container .copyright {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+
 
 }
