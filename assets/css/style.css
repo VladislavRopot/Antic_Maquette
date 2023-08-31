@@ -533,7 +533,9 @@ body {
     text-decoration: none;
 }
 
-
+#burger-menu {
+    display: none;
+}
 
 #scroll2 {
     display: none;
@@ -551,6 +553,10 @@ body {
         align-items: center;
     }
 
+    .antic-maquette-section .antic-maquette-section-container .navigation-bar .menu h1 {
+        color: #FFF;
+    }
+
     .antic-maquette-section .antic-maquette-section-container .navigation-bar .menu ul {
         display: none;
     }
@@ -560,6 +566,7 @@ body {
     }
 
     #burger-menu {
+        display: block;
         width: 24px;
         height: 12px;
     }
@@ -615,125 +622,24 @@ body {
         margin: 0 auto;
     }
 
-    .antic-maquette-section .antic-maquette-section-container .navigation-bar .menu h1 {
-        color: #FFF;
-    }
-
     .slide-section .slide-section-container {
         padding: 48px 32px;
         flex-direction: column;
+        gap: 32px;
     }
 
-    .slide-section .slide-section-container .left-side {
-        width: 100%;
-    }
-
-    .slide-section .slide-section-container .right-side {
-        width: 100%;
-    }
-
-    .slide-section .slide-section-container .right-side .card-container .card {
-        width: 100%;
-    }
-
-}
-
-/*@media screen and (max-width:768px) {
-    .antic-maquette-section .antic-maquette-section-container {
-        height: 667px;
-    }
-
-    .antic-maquette-section .antic-maquette-section-container .antic-left-side {
-        width: 100%;
-        position: absolute;
-        height: 100%;
-        padding: 25px;
-        display: flex;
-        max-width: 375px;
-        max-height: 667px;
-        padding: 25px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 24px;
-        flex-shrink: 0;
-    }
-
-    .antic-maquette-section .antic-maquette-section-container .antic-right-side {
-        max-width: 375px;
-        width: 100%;
-        max-height: 667px;
-        height: 100%;
-    }
-
-    .antic-maquette-section .antic-maquette-section-container .antic-left-side h5 {
-        color: #FFF;
-        text-align: center;
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Varta;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-    }
-
-    .antic-maquette-section .antic-maquette-section-container .antic-left-side h1 {
-        color: #FFF;
-        text-align: center;
-        font-feature-settings: 'clig' off, 'liga' off;
+    .slide-section .slide-section-container h1 {
+        color: #534B42;
         font-size: 35px;
-        font-style: normal;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 40px;
         letter-spacing: -0.3px;
     }
 
-    .antic-maquette-section .antic-maquette-section-container .antic-left-side p {
-        color: #F7F8F9;
-        text-align: center;
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Varta;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
+    .slide-section .slide-section-container a {
+        font-family: Lato;
+        font-weight: 900;
         line-height: 25px;
-    }
-
-    #scroll1 {
-        display: none;
-    }
-
-    #scroll2 {
-        display: block;
-        width: 50px;
-        height: 50px;
-        margin: 0 auto;
-    }
-
-    .antic-maquette-section .antic-maquette-section-container .navigation-bar {
-        display: flex;
-        top: 41px;
-        left: 25px;
-        right: 25px;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .antic-maquette-section .antic-maquette-section-container .navigation-bar .menu {}
-
-    .antic-maquette-section .antic-maquette-section-container .navigation-bar .menu h1 {
-        color: #FFF;
-    }
-
-    .slide-section .slide-section-container {
-        display: flex;
-        width: 375px;
-        padding: 48px 32px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 32px;
     }
 
     .slide-section .slide-section-container .left-side {
@@ -745,16 +651,11 @@ body {
     }
 
     .slide-section .slide-section-container .right-side .card-container {
-        width: 100%;
-        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        gap: 41px;
-        align-self: stretch;
     }
 
-    .slide-section .slide-section-container a {
-        font-family: Lato;
-        font-weight: 900;
+    .slide-section .slide-section-container .right-side .card-container .card {
+        width: 100%;
     }
-    }*/
+
+}
