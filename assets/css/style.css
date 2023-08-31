@@ -658,4 +658,59 @@ body {
         width: 100%;
     }
 
+    .latest-trends-section .latest-trends-section-container {
+        display: flex;
+        padding: 48px 32px;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        width: 100%;
+    }
+
+    .latest-trends-section .latest-trends-section-container .trends {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        width: 100%;
+    }
+
+    .latest-trends-section .latest-trends-section-container .trends .trends-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 311px;
+    }
+
+    .latest-trends-section .latest-trends-section-container .trends .trends-right .action-button {
+        display: flex;
+        width: 311px;
+        height: 50px;
+        padding: 12px 30px 13px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .latest-trends-section .latest-trends-section-container .slider {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .latest-trends-section .latest-trends-section-container .inspirations {
+        order: 1;
+        width: 311px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .latest-trends-section .latest-trends-section-container .slider .slider-image {
+        order: 2;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
