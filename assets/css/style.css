@@ -69,9 +69,9 @@ body {
 }
 
 .antic-maquette-section .antic-maquette-section-container .antic-right-side img {
-    max-width: 100%;
     height: 100%;
     object-fit: cover;
+    width: 100%;
 }
 
 .antic-maquette-section .antic-maquette-section-container .navigation-bar {
@@ -293,6 +293,7 @@ body {
 }
 
 .latest-trends-section .latest-trends-section-container .trends .trends-right .placeholder {
+    background: rgba(243, 238, 232, 0.30);
     color: rgba(112, 100, 88, 0.90);
     width: 296.095px;
     padding: 15px 15.095px 10px 15px;
@@ -532,25 +533,44 @@ body {
     text-decoration: none;
 }
 
+
+
+#scroll2 {
+    display: none;
+}
+
 @media screen and (max-width:768px) {
     .antic-maquette-section {
         height: 667px;
     }
 
-    .antic-maquette-section .antic-maquette-section-container {
-        display: flex;
-        padding: 25px;
-        flex-direction: column;
-        justify-content: center;
+    .antic-maquette-section .antic-maquette-section-container .navigation-bar {
+        top: 41px;
+        right: 32px;
+        left: 22px;
         align-items: center;
-        gap: 24px;
-        flex-shrink: 0;
+    }
+
+    .antic-maquette-section .antic-maquette-section-container .navigation-bar .menu ul {
+        display: none;
+    }
+
+    #contact-menu {
+        display: none;
+    }
+
+    #burger-menu {
+        width: 24px;
+        height: 12px;
     }
 
     .antic-maquette-section .antic-maquette-section-container .antic-left-side {
         width: 100%;
         position: absolute;
         height: 100%;
+        align-items: center;
+        padding: 25px;
+        gap: 24px;
     }
 
     .antic-maquette-section .antic-maquette-section-container .antic-right-side {
