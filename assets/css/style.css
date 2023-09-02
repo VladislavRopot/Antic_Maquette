@@ -231,13 +231,12 @@ body {
 
 .latest-trends-section .latest-trends-section-container .trends {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 189px;
+    width: 100%;
 }
 
 .latest-trends-section .latest-trends-section-container .trends .trends-left {
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -286,7 +285,6 @@ body {
 }
 
 .latest-trends-section .latest-trends-section-container .trends .trends-right {
-    width: 50%;
     display: flex;
     align-items: flex-start;
     gap: 16px;
@@ -726,6 +724,7 @@ body {
 
     .latest-trends-section .latest-trends-section-container .slider .slider-image img {
         height: 175px;
+        object-fit: cover;
     }
 
     .footer-section {
@@ -748,8 +747,7 @@ body {
 
     .footer-section .footer-section-container .footer-content .link-group h1 {
         width: 100%;
-        align-items: center;
-        margin: 0 auto;
+        text-align: center;
     }
 
     .footer-section .footer-section-container .footer-content .link-group .links {
@@ -771,6 +769,10 @@ body {
         width: 100%;
     }
 
+    .footer-section .footer-section-container .footer-content .link-group .links h3 {
+        color: #121212;
+    }
+
     .footer-section .footer-section-container .copyright {
         display: flex;
         flex-direction: column;
@@ -789,9 +791,8 @@ body {
 
     .footer-section .footer-section-container .copyright .legals {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: flex-start;
         gap: 32px;
     }
-
 }
